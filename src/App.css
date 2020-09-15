@@ -1,0 +1,94 @@
+.App {
+  text-align: center;
+}
+
+.container {
+  border:1px solid lightblue;
+  margin:0 20px 20px 20px;
+  position: relative;
+  height:290px;
+  padding:0;
+}
+
+.fieldSelectorContainer{
+  border:1px solid lightblue;
+  margin:20px 20px 0px 20px;
+  position: relative;
+  height:140px;
+}
+.select--inactive{
+  pointer-events: none;
+  opacity: 0.4;
+}
+
+.checkboxContainer{
+  display: flex;
+  margin-left: 40px;
+  margin-top:30px;
+}
+
+.checkboxTitle{
+  margin-left: 20px;
+  text-align: left;
+}
+
+.checkbox{
+  padding-right: 50px;
+}
+
+.createButton{
+  position: absolute;
+  right:20px;
+  bottom: 10px;
+}
+
+.fieldContainer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  
+  justify-content: space-around;
+  
+  padding: 0;
+  margin: 10px;
+  list-style: none;
+}
+
+.textField{
+
+  display: inline-block;
+  margin: 10px 0px 0px 10px;
+  flex-grow: 1;
+  height: 200px;
+  border:1px solid lightblue;
+}
+
+.dateField{
+  display: inline-block;
+  margin: 10px 0 0 10px;
+  flex-grow: 1;
+  height: 200px;
+  border:1px solid lightblue;
+}
+
+.rangeField{
+  display: inline-block;
+  margin: 10px 0 0 10px;
+  flex-grow: 1;
+  height: 200px;
+  border:1px solid lightblue;
+}
+
+textarea {
+  height:110px;
+  width:80%;
+}
+
+
+.printSection {
+  border:1px solid lightblue;
+  margin:0 20px 20px 20px;
+  padding-top: 40px;
+  position: relative;
+  height:200px;
+}
